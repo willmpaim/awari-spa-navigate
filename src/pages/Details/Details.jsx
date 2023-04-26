@@ -15,9 +15,7 @@ function Details() {
             <h1>{userDetails.name}</h1>
             <p>{userDetails.description}</p>
             <img src={userDetails.image.src} alt={userDetails.image.alt} />
-            <button>
-                <Link to="/">Voltar</Link>
-            </button>
+            <Link to="/">Voltar</Link>
         </div>
 
     )

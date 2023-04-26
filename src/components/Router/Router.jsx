@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Details from "../../pages/Details";
 import Home from "../../pages/Home";
+import Error from "../../pages/Error/Error";
 
 
 
@@ -10,7 +11,7 @@ function Router () {
         <Routes>
             <Route path='/' element={<Home />}/>
             <Route path='/details/:id' element={<Details />}/>
-            <Route path='*' element={<div>Pagina não econtrada</div>}/>
+            <Route path='*' element={<Error />}/>
         </Routes>
       </BrowserRouter>
     )

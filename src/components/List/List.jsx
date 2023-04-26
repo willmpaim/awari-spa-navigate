@@ -10,7 +10,8 @@ function List({ usersList , onItemClick }) {
         return usersList.map((user) => {
             return (
                 <li key={user.id}>
-                    <p onClick={() => handleClick(user)}>{user.name}</p>
+                    <p>{user.name}</p>
+                    <button onClick={() => handleClick(user)}>ver detalhes</button>
                 </li>
             )
         });
@@ -19,11 +20,7 @@ function List({ usersList , onItemClick }) {
 
     return (
         <div>
-             {usersList.length > 0 ? (
             <ul>{listMap}</ul>
-        ): (
-            <p>não há usuario</p>
-        )}
         </div> 
     )
 
