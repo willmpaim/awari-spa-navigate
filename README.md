@@ -4,7 +4,7 @@
 
 <li> Utlizado Lib React Router;
 <li> Configuração de BrowserRouter paras paginas;
-<li> Realizado utilização de Hooks Useparams e Use navigate do react Router;
+<li> Realizado utilização de Hooks Useparams e Usenavigate do react Router;
 <li> Tag Link do React Router;
 
 # Getting Started with Create React App
