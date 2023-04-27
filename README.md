@@ -6,6 +6,7 @@
 <li> Configuração de BrowserRouter paras paginas;
 <li> Realizado utilização de Hooks Useparams e Usenavigate do react Router;
 <li> Tag Link do React Router;
+<li> pagina de error simplificada com botaõ para voltar a Home;
 
 # Getting Started with Create React App
 
