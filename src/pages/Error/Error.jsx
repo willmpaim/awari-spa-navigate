@@ -5,7 +5,7 @@ function Error() {
     return (
         <>
         <p>Pagina não encontrada</p>
-        <button>
+        <button className="button">
             <Link to="/">Voltar</Link>
         </button>
         </>

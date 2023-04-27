@@ -5,16 +5,19 @@ h1 {
 .name {
     margin: 10px;
     font-size: x-large;
-    
+
 }
 
 .button {
-   padding: 5px;
-   margin: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #AAC8A7;
+    border-radius: 10px;
+    background-color: #C9DBB2;
 }
 
 .list {
- text-align: center;
+    text-align: center;
 }
 
 li {

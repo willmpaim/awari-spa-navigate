@@ -5,6 +5,7 @@ html {
 
 .image {
     max-width: 50%;
+    margin: 10px;
 }
 
 .details {
@@ -13,4 +14,11 @@ html {
 
 .description {
     text-align: justify;
+}
+
+.button {
+    text-decoration: none;
+    border: 2px solid #AAC8A7;
+    border-radius: 10px;
+    background-color: #C9DBB2;
 }
