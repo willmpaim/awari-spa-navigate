@@ -3,6 +3,7 @@ import List from "../../components/List";
 import usersList from "../../data";
 import { useNavigate } from "react-router-dom";
 
+
 function Home() {
 
     const navigate = useNavigate();

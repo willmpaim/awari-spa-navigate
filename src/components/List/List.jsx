@@ -1,4 +1,5 @@
 import { useCallback, useMemo } from "react";
+import "./List.css";
 
 function List({ usersList , onItemClick }) {
 
@@ -10,8 +11,8 @@ function List({ usersList , onItemClick }) {
         return usersList.map((user) => {
             return (
                 <li key={user.id}>
-                    <p>{user.name}</p>
-                    <button onClick={() => handleClick(user)}>ver detalhes</button>
+                    <p className="name">{user.name}</p>
+                    <button className="button" onClick={() => handleClick(user)}>ver detalhes</button>
                 </li>
             )
         });
@@ -19,8 +20,8 @@ function List({ usersList , onItemClick }) {
     }, [handleClick, usersList]);
 
     return (
-        <div>
-            <ul>{listMap}</ul>
+        <div className="list">
+            {listMap}
         </div> 
     )
 

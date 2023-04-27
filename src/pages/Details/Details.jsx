@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import usersList from "../../data";
+import "./Details.css"
 
 function Details() {
 
@@ -11,10 +12,10 @@ function Details() {
 
     });
     return (
-        <div>
+        <div className="details" >
             <h1>{userDetails.name}</h1>
-            <p>{userDetails.description}</p>
-            <img src={userDetails.image.src} alt={userDetails.image.alt} />
+            <p className="description">{userDetails.description}</p>
+            <img className="image" src={userDetails.image.src} alt={userDetails.image.alt} />
             <Link to="/">Voltar</Link>
         </div>
 

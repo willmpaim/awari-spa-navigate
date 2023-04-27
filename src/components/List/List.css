@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.name {
+    margin: 10px;
+    font-size: x-large;
+    
+}
+
+.button {
+   padding: 5px;
+   margin: 5px;
+}
+
+.list {
+ text-align: center;
+}
+
+li {
+    list-style: none;
+}

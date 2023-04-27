@@ -1,0 +1,16 @@
+html {
+    max-width: 100%;
+    height: auto;
+}
+
+.image {
+    max-width: 50%;
+}
+
+.details {
+    text-align: center;
+}
+
+.description {
+    text-align: justify;
+}
