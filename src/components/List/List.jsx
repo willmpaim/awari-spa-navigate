@@ -12,7 +12,7 @@ function List({ usersList , onItemClick }) {
             return (
                 <li key={user.id}>
                     <p className="name">{user.name}</p>
-                    <button className="button" onClick={() => handleClick(user)}>ver detalhes</button>
+                    <button className="btn" onClick={() => handleClick(user)}>ver detalhes</button>
                 </li>
             )
         });
